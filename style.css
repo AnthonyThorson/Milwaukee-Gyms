@@ -38,7 +38,7 @@ h2 {
 
 /* Home page header with a locally stored background image */
 .home-header h1 {
-  background-image: url("images/background.svg");
+  background-Image: url("Images/background.svg");
   background-repeat: repeat;
   color: #fdf6e3;
   padding: 40px 10px;
