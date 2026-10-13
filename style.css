@@ -1,0 +1,71 @@
+/* Shared stylesheet for all four pages */
+
+body {
+  background-color: #fdf6e3;
+  color: #5b3a1e;
+  font-family: Verdana, Geneva, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Every page title gets a 2px solid blue border */
+h1 {
+  border: 2px solid blue;
+  padding: 10px;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #8b5a2b;
+}
+
+/* A different title font for each gym page */
+.title-candy {
+  font-family: Impact, "Arial Black", sans-serif;
+}
+
+.title-eastbank {
+  font-family: "Comic Sans MS", "Comic Neue", cursive;
+}
+
+.title-wac {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Home page header with a locally stored background image */
+.home-header h1 {
+  background-image: url("images/background.svg");
+  background-repeat: repeat;
+  color: #fdf6e3;
+  padding: 40px 10px;
+}
+
+/* Big, bold first letter of each sentence */
+.big-letter {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #8b5a2b;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+a {
+  color: #a0522d;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #5b3a1e;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 10px;
+}
